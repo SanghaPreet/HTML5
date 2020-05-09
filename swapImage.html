@@ -1,0 +1,44 @@
+<html>
+	<head>
+		<title>HTML5 L2</title>
+		<link href="swap.css" rel="stylesheet"/>
+		<script src="https://maps.google.com/maps/api/js?sensor=false"></script>
+		<script src="geoLocation.js"></script>
+	</head>
+	<body onload="clickCounter()">
+		<p id="result"></p>
+		<p id="result1"></p>
+		<button id ="bt" type="button" onclick="showPosition();">Show My Position on Google Map</button>
+		<div id="embedMap" style="width: 400px; height: 300px;"><!--Google map will be embedded here--></div>
+		<section id ="container">
+			<section id="SVGs">
+				<section class="sec2">
+					<svg width="200" height="200">
+						<circle id="abc" cx="100" cy="95" r="90" stroke="green" stroke-width="4" fill="yellow"></circle>
+					</svg>
+					<br>
+				</section>
+				<!-- elemnt over it-->    
+				<section id="sec1"class="sec1" ondrop="drop(event)" ondragover="allowDrop(event)"></section>
+				<br/><br/>
+			</section>
+			<section id="SVGs">
+				<section class="sec3">
+					<svg width="200" height="200">
+						<circle id="abc" cx="100" cy="95" r="90" stroke="green" stroke-width="4" fill="yellow"></circle>
+					</svg>
+					<br>
+				</section>
+			   <!-- elemnt over it-->  
+				<section id="sec12"class="sec12" ondrop="drop(event)" ondragover="allowDrop(event)"></section>
+				<br/><br/>
+			</section>
+			<section>
+				<p> <strong>Drag the gif image to the SVG circles above</strong></p>
+				<img id="drg1" alt="Check Internet Connection"src="https://media.giphy.com/media/l3vR16pONsV8cKkWk/giphy.gif" draggable="true" ondragstart="drag(event)" 
+					 width="120" height="120"/>
+			</section>
+				 
+		</section>  
+	</body>
+</html>

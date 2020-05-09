@@ -1,0 +1,50 @@
+#container{
+    text-align: right;
+    margin: -190px 10% -10% 20%;
+    /*background: red;*/
+   }
+#SVGs{
+    width:50px;
+    height:100px;
+    margin: 30px 0 0 550px;
+    position:relative;
+    }
+.sec1{
+    width:120px;
+    height:120px;
+    position:absolute;
+    top:30px;
+    left:-110;
+    /*background: pink;*/
+    /*border: 4px solid black;*/
+    }
+.sec12{
+    width:120px;
+    height:120px;
+    position:absolute;
+    top:160px;
+    left:-110;
+    /*background: orange;*/
+    /*border: 4px solid black;*/
+    }
+.sec3{
+    width:250px;
+    height:250px;
+    position:absolute;
+    top:130;
+    right:0;
+    /*background: green;
+    border: 4px solid black;*/
+    }
+.sec1{
+    z-index:10;
+    }
+.sec2{
+    width:250px;
+    height:250px;
+    position:absolute;
+    top:0;
+    right:0;
+    /*background: blue;
+    border: 4px solid black;*/
+    }
